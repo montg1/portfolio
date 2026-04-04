@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oatsada Chatthong — Software Engineer specializing in AI, Python, and DevOps. View my portfolio, skills, and experience.">
+    <meta name="keywords" content="Oatsada Chatthong, Software Engineer, AI, Python, DevOps, Portfolio">
+    <meta name="author" content="Oatsada Chatthong">
+    <title>Oatsada Chatthong | Software Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">&lt;OC /&gt;</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <section id="hero" class="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Oatsada Chatthong</h1>
+            <div class="hero-title-wrapper">
+                <span class="hero-title" id="typed-text"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-summary">
+                Passionate about the intersection of AI, Python, and DevOps. 
+                Proven ability to develop and deploy Python-based applications 
+                while implementing efficient DevOps workflows.
+            </p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#experience" class="btn btn-outline">View My Work</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/montg1" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:oatsada.mon@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:0902428338" aria-label="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title" data-animate>
+                <span class="title-number">01.</span> About Me
+            </h2>
+            <div class="about-grid" data-animate>
+                <div class="about-text">
+                    <p>
+                        I'm a <strong>Software Engineer</strong> who graduated from 
+                        <strong>Thammasat University</strong> with a Bachelor of Engineering 
+                        in Software Engineering. I'm passionate about building solutions at the 
+                        intersection of <span class="highlight">AI</span>, 
+                        <span class="highlight">Python</span>, and 
+                        <span class="highlight">DevOps</span>.
+                    </p>
+                    <p>
+                        I love turning complex problems into elegant, efficient solutions. 
+                        From developing AI agents to building CI/CD pipelines on Google Cloud, 
+                        I thrive on continuous learning and pushing the boundaries of what's possible.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="3">0</span>
+                            <span class="stat-label">Work Experiences</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="1">0</span>
+                            <span class="stat-label">IEEE Publication</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="6">0</span>
+                            <span class="stat-label">Programming Languages</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="education-card">
+                        <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Education</h3>
+                        <p class="card-title">Bachelor of Engineering</p>
+                        <p class="card-subtitle">Software Engineering</p>
+                        <p class="card-detail">Thammasat University | 2020</p>
+                    </div>
+                    <div class="publication-card">
+                        <div class="card-icon"><i class="fas fa-file-alt"></i></div>
+                        <h3>Publication</h3>
+                        <p class="card-title">IEEE O-COCOSDA 2024</p>
+                        <p class="card-subtitle">"Comprehensive Benchmarking and Analysis of Open Pretrained Thai Speech Recognition Models"</p>
+                        <p class="card-detail">Hsinchu, Taiwan, 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE ==================== -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title" data-animate>
+                <span class="title-number">02.</span> Experience
+            </h2>
+            <div class="timeline" data-animate>
+                <!-- Experience 1 -->
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AI Automation</h3>
+                            <span class="timeline-date">Jul 2025 — Present</span>
+                        </div>
+                        <p class="timeline-company">
+                            <i class="fas fa-building"></i> Maverix Group
+                        </p>
+                        <ul class="timeline-details">
+                            <li><strong>AI Agent Development:</strong> Designed and deployed a custom AI administrative agent to integrate Inflow with ClickUp, streamlining data synchronization.</li>
+                            <li><strong>KPI Automation:</strong> Engineered an automated data pipeline to extract performance metrics from ClickUp, enabling real-time generation of KPIs.</li>
+                            <li><strong>Process Optimization:</strong> Reduced administrative overhead by automating cross-platform communication.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">N8N</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AI Engineer Internship</h3>
+                            <span class="timeline-date">Jan 2024 — Dec 2024</span>
+                        </div>
+                        <p class="timeline-company">
+                            <i class="fas fa-building"></i> NECTEC
+                        </p>
+                        <ul class="timeline-details">
+                            <li>Developed speaker verification system CI/CD on Google Cloud.</li>
+                            <li>Developed service for Pathumma LLM (Audio LLM).</li>
+                            <li>Real-time transcription service.</li>
+                            <li>Data scraping from YouTube.</li>
+                            <li>Developed service for conference transcription.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">GCP</span>
+                            <span class="tag">CI/CD</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">LLM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item" data-animate>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Front End Developer Internship</h3>
+                            <span class="timeline-date">Jun 2023 — Jul 2023</span>
+                        </div>
+                        <p class="timeline-company">
+                            <i class="fas fa-building"></i> Smartclick Solution
+                        </p>
+                        <ul class="timeline-details">
+                            <li>Used version control systems (Git) for collaboration.</li>
+                            <li>Wrote and maintained HTML/CSS for web layout and styling.</li>
+                            <li>Collaborated with designers for intuitive user interfaces.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title" data-animate>
+                <span class="title-number">03.</span> Skills
+            </h2>
+            <div class="skills-grid" data-animate>
+                <!-- Programming Languages -->
+                <div class="skill-category" data-animate>
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="70"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML / CSS</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="60"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="70"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category" data-animate>
+                    <div class="skill-category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Platforms</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-aws"></i> AWS</span>
+                        <span class="skill-tag"><i class="fab fa-microsoft"></i> Azure</span>
+                        <span class="skill-tag"><i class="fab fa-docker"></i> Docker</span>
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-tag"><i class="fas fa-server"></i> VMware</span>
+                        <span class="skill-tag"><i class="fas fa-box"></i> VirtualBox</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> VSCode</span>
+                        <span class="skill-tag"><i class="fas fa-coffee"></i> Eclipse</span>
+                        <span class="skill-tag"><i class="fab fa-figma"></i> Figma</span>
+                        <span class="skill-tag"><i class="fas fa-project-diagram"></i> Lucidchart</span>
+                        <span class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        <span class="skill-tag"><i class="fas fa-server"></i> Xampp</span>
+                        <span class="skill-tag"><i class="fas fa-robot"></i> N8N</span>
+                    </div>
+                </div>
+
+                <!-- Operating Systems -->
+                <div class="skill-category" data-animate>
+                    <div class="skill-category-header">
+                        <i class="fas fa-laptop"></i>
+                        <h3>Operating Systems</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag"><i class="fab fa-windows"></i> Windows</span>
+                        <span class="skill-tag"><i class="fab fa-ubuntu"></i> Ubuntu</span>
+                        <span class="skill-tag"><i class="fab fa-centos"></i> CentOS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CERTIFICATES ==================== -->
+    <section id="certificates" class="section certificates">
+        <div class="container">
+            <h2 class="section-title" data-animate>
+                <span class="title-number">04.</span> Certificates
+            </h2>
+            <p class="section-subtitle" data-animate>Coming soon — certificates will be added here.</p>
+            <div class="certificates-grid" data-animate>
+                <div class="certificate-card placeholder-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Your Certificate</h3>
+                    <p class="cert-issuer">Issuing Organization</p>
+                    <p class="cert-date">Date</p>
+                </div>
+                <div class="certificate-card placeholder-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Your Certificate</h3>
+                    <p class="cert-issuer">Issuing Organization</p>
+                    <p class="cert-date">Date</p>
+                </div>
+                <div class="certificate-card placeholder-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Your Certificate</h3>
+                    <p class="cert-issuer">Issuing Organization</p>
+                    <p class="cert-date">Date</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title" data-animate>
+                <span class="title-number">05.</span> Get In Touch
+            </h2>
+            <div class="contact-grid" data-animate>
+                <div class="contact-info">
+                    <p class="contact-text">
+                        I'm currently open to new opportunities. Whether you have a question 
+                        or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <a href="mailto:oatsada.mon@gmail.com" class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>oatsada.mon@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:0902428338" class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>090-242-8338</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/montg1" target="_blank" rel="noopener" class="contact-item">
+                            <div class="contact-icon"><i class="fab fa-github"></i></div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/montg1</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    Designed & Built by <strong>Oatsada Chatthong</strong>
+                </p>
+                <div class="footer-socials">
+                    <a href="https://github.com/montg1" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:oatsada.mon@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <p class="footer-copyright">&copy; 2025 Oatsada Chatthong. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
