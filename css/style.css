@@ -1011,6 +1011,29 @@ button {
     font-size: var(--fs-xs);
 }
 
+.cert-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-top: var(--space-lg);
+    padding: var(--space-sm) var(--space-lg);
+    border: 1px solid var(--accent-1);
+    border-radius: var(--radius-full);
+    color: var(--accent-1);
+    font-size: var(--fs-xs);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all var(--transition-base);
+}
+
+.cert-link:hover {
+    background: var(--accent-gradient);
+    border-color: transparent;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(123, 97, 255, 0.3);
+}
+
 /* ================================================
    CONTACT
    ================================================ */
