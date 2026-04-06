@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const typedText = document.getElementById('typed-text');
     const titles = [
         'Software Engineer',
-        'AI Enthusiast',
-        'Python Developer',
+        'AI Automation Engineer',
+        'Python & Go Developer',
         'DevOps Engineer',
-        'Full Stack Developer'
+        'LLM & ML Engineer'
     ];
     let titleIndex = 0;
     let charIndex = 0;
